@@ -11,7 +11,16 @@
   float: right;
   margin-right: 5%;
 }
+.custom-forms form table td.requiredFieldMarkerColumn{
+  width: 10px !important;
+}
 
+img.requiredFieldMarker {
+  width:5px;
+  height:15px;
+  background-image: url("../images/required10.gif");
+  background-repeat: no-repeat;
+}
 #fitnesslogo{
   float: left;
   display: block;
