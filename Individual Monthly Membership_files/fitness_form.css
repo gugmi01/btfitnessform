@@ -1,0 +1,74 @@
+/* Begin Custom styles */
+#main-navigation {
+  display: none !important;
+}
+
+.hideNow{
+  display: none !important;
+}
+.bbutton {
+  margin-top: 3%;
+  float: right;
+  margin-right: 5%;
+}
+
+#fitnesslogo{
+  float: left;
+  display: block;
+  margin-right: 1.7578775415%;
+  width: 23.6815918439%;
+  margin-top: .25em;
+  margin-bottom: .75em;
+}
+
+select {
+  clear: both;
+  width: 100%;
+  background: #eee;
+  margin-bottom: 1em;
+  font-size: 1em;
+  height: 2.4em;
+  color: #666;
+  -o-transition: .1s ease-out;
+  -ms-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+  cursor: pointer;
+}
+
+#fitnesslogo a{
+  background-image: url('https://breakthrough.mysites.io/files/fitness_logo.png')!important;
+  background-size: 245px 90px;
+  display: block;
+  width: 245px;
+  height: 90px;
+  background-image: url(../img/logo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.fineprint{
+text-align: center;
+
+}
+
+#bottom ul li{
+  float: none !important;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 600px){
+
+  .bbutton {
+    margin-bottom: 3%;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+  }
+
+}

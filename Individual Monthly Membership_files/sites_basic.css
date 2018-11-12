@@ -1,0 +1,189 @@
+/* Begin Custom styles */
+#main-navigation {
+  display: none !important;
+}
+
+.hideNow{
+  display: none !important;
+}
+.bbutton {
+  margin-top: 3%;
+  float: right;
+  margin-right: 5%;
+}
+
+#fitnesslogo{
+  float: left;
+  display: block;
+  margin-right: 1.7578775415%;
+  width: 23.6815918439%;
+  margin-top: .25em;
+  margin-bottom: .75em;
+}
+
+select {
+  clear: both;
+  width: 100%;
+  background: #eee;
+  margin-bottom: 1em;
+  font-size: 1em;
+  height: 2.4em;
+  color: #666;
+  -o-transition: .1s ease-out;
+  -ms-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+  cursor: pointer;
+}
+
+#fitnesslogo a{
+  background-image: url('https://breakthrough.mysites.io/files/fitness_logo.png')!important;
+  background-size: 245px 90px;
+  display: block;
+  width: 245px;
+  height: 90px;
+  background-image: url(../img/logo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.fineprint{
+text-align: center;
+
+}
+
+#bottom ul li{
+  float: none !important;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 600px){
+
+  .bbutton {
+    margin-bottom: 3%;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+  }
+
+}
+
+
+
+
+/* Basic style sheet for use with Linvio Donations add-on pages */
+
+/* donations landing page */
+#pc_recurring_donation_options { margin-top:5px;}
+#pc_donation_occurrences { margin-top:5px;}
+.pc_donation_option_list_horiz {display:inline-block;}
+.pc_donation_option_list_vert {display:inline;vertical-align:bottom;}
+.pc_donation_amount_horiz { vertical-align:6px;}
+.pc_donation_amount_vert { vertical-align:text-bottom;}
+.pc_donation_amount { width:75px;margin-right:4px; }
+.dn8n_donation_table label {padding-right:4px;}
+
+
+.pc_custom_fields_table input[type="checkbox"] {
+    margin-right:4px;
+    }
+
+.dn8n_progress_image_0_percent {
+  background-image:url('../images/fundraising-thermometer-blue-0.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.dn8n_progress_image_10_percent {
+  background-image:url('../images/fundraising-thermometer-blue-10.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.dn8n_progress_image_20_percent {
+  background-image:url('../images/fundraising-thermometer-blue-20.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+.dn8n_progress_image_30_percent {
+  background-image:url('../images/fundraising-thermometer-blue-30.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+.dn8n_progress_image_40_percent {
+  background-image:url('../images/fundraising-thermometer-blue-40.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+.dn8n_progress_image_50_percent {
+  background-image:url('../images/fundraising-thermometer-blue-50.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+.dn8n_progress_image_60_percent {
+  background-image:url('../images/fundraising-thermometer-blue-60.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+.dn8n_progress_image_70_percent {
+  background-image:url('../images/fundraising-thermometer-blue-70.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.dn8n_progress_image_80_percent {
+  background-image:url('../images/fundraising-thermometer-blue-80.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.dn8n_progress_image_90_percent {
+  background-image:url('../images/fundraising-thermometer-blue-90.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.dn8n_progress_image_100_percent {
+  background-image:url('../images/fundraising-thermometer-blue-100.png');
+  background-size: 111px 421px;
+  height: 421px;
+  width: 111px;
+}
+
+.pc_page_content table {
+	border-collapse:collapse;
+}
+
+#pc_donations_page .pc_button_panel_grid {
+	margin-top:20px;
+}
+
+/* Social Media Links - default orientation is inline */
+.dn8n_social_links {
+	height:22px;
+	margin-top:20px;
+	}
+.dn8n_social_links .facebook-share {
+	float:left;
+}
+.dn8n_social_links .twitter-share {
+	float:left;
+}
+.dn8n_social_links .linkedin-share {
+	float:left;
+}
