@@ -1,8 +1,88 @@
+/* Begin general column styling */
+
+#content .wrap.single-col .main{
+  margin-left: 0;
+  width: 100%;
+}
+#pc_lang_en_US{
+  width: 100%;
+}
+#content .wrap .main{
+  max-width: none;
+}
+.pc_page{
+  width: 100%;
+}
+#siteEstoreSubPage\:SiteTemplate\:mainForm{
+  width: 100%;
+}
+#siteEstoreSubPage\:SiteTemplate\:mainForm\:estoreHtmlContent{
+  width: 100%;
+}
+
+#siteEstoreSubPage\:SiteTemplate\:mainForm\:estoreHtmlContent h3{
+  width: 100%;
+}
+
+/* Begin Captcha centering */
+
+#captcha_flex_form div.pc_flex_form_line_container{
+  display: inline-block;
+}
+
+.g-recaptcha div{
+  display: inline-block;
+}
+
+#captcha_flex_form div div.pc_flex_form_label_item, #captcha_flex_form div div.pc_flex_form_required_flag_item{
+  display:none;
+}
+
+.pc_button_container{
+  margin-top: 0px !important;
+}
+
+#captcha_flex_form{
+  text-align: center;
+}
+
+/* Begin submit button */
+
+.pc_button_container{
+  text-align:center;
+  padding-left: 0px !important;
+}
+
+
+
+
+#siteEstoreSubPage\:SiteTemplate\:mainForm\:ccButton, #siteEstoreProductsPage\:SiteTemplate\:mainForm\:ccButton {
+  width: 60%;
+  height: 70px;
+  margin-left:auto;
+  margin-right: auto !important;
+  background-color: rgb(141, 198, 63) !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham Black', 'Roboto', sans-serif !important;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+#siteEstoreSubPage\:SiteTemplate\:mainForm\:ccButton:hover, #siteEstoreProductsPage\:SiteTemplate\:mainForm\:ccButton:hover {
+  opacity: .75;
+}
+
 /* Begin Custom styles */
 #main-navigation {
   display: none !important;
 }
-
+.main.custom-forms{
+  width: 100%;
+}
 .hideNow{
   display: none !important;
 }
@@ -11,7 +91,16 @@
   float: right;
   margin-right: 5%;
 }
+.custom-forms form table td.requiredFieldMarkerColumn{
+  width: 10px !important;
+}
 
+img.requiredFieldMarker {
+  width:5px;
+  height:15px;
+  background-image: url("../images/required10.gif");
+  background-repeat: no-repeat;
+}
 #fitnesslogo{
   float: left;
   display: block;
