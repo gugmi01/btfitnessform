@@ -20,7 +20,16 @@
   margin-top: .25em;
   margin-bottom: .75em;
 }
+.custom-forms form table td.requiredFieldMarkerColumn{
+  width: 10px !important;
+}
 
+img.requiredFieldMarker {
+  width:5px;
+  height:15px;
+  background-image: url("../images/required10.gif");
+  background-repeat: no-repeat;
+}
 select {
   clear: both;
   width: 100%;
